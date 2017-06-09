@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/image1" />
+
+        <com.qishui.zhou.rv2.view.TriangleLabelView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            app:backgroundColor="#ff0"
+            app:corner="leftBottom"
+            app:labelBottomPadding="0dp"
+            app:labelCenterPadding="5dp"
+            app:labelTopPadding="10dp"
+            app:primaryText="New"
+            app:primaryTextColor="#ff0345"
+            app:primaryTextSize="16sp"
+            app:secondaryText="01"
+            app:secondaryTextColor="#ff22"
+            app:secondaryTextSize="11sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/image2" />
+
+        <com.qishui.zhou.rv2.view.TriangleLabelView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            app:backgroundColor="#f11"
+            app:corner="leftTop"
+            app:labelBottomPadding="5dp"
+            app:labelCenterPadding="0dp"
+            app:labelTopPadding="10dp"
+            app:primaryText="New"
+            app:primaryTextColor="#a33"
+            app:primaryTextSize="16sp"
+            app:secondaryText="01"
+            app:secondaryTextColor="#b66"
+            app:secondaryTextSize="11sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/image2" />
+
+        <com.qishui.zhou.rv2.view.TriangleLabelView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            app:backgroundColor="#f11"
+            app:corner="rightTop"
+            app:labelCenterPadding="0dp"
+            app:labelTopPadding="10dp"
+            app:primaryText="New"
+            app:primaryTextColor="#a33"
+            app:primaryTextSize="16sp"
+            app:secondaryText="01"
+            app:secondaryTextColor="#b66"
+            app:secondaryTextSize="11sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/image1" />
+
+        <com.qishui.zhou.rv2.view.TriangleLabelView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            app:backgroundColor="#ff00"
+            app:corner="rightBottom"
+            app:labelBottomPadding="0dp"
+            app:labelCenterPadding="5dp"
+            app:labelTopPadding="10dp"
+            app:primaryText="New"
+            app:primaryTextColor="#000"
+            app:primaryTextSize="16sp"
+            app:secondaryText="01"
+            app:secondaryTextColor="#000"
+            app:secondaryTextSize="11sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+

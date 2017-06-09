@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.qishui.zhou.rv2.view.LabelButtonView
+            android:id="@+id/labelbutton"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:background="#03a9f4"
+            android:gravity="center"
+            android:text="Button"
+            android:textColor="#ffffff"
+            app:label_backgroundColor="#C2185B"
+            app:label_distance="20dp"
+            app:label_height="20dp"
+            app:label_orientation="RIGHT_TOP"
+            app:label_text="HD"
+            app:label_textSize="12sp"
+            app:label_textStyle="BOLD" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp">
+
+            <com.qishui.zhou.rv2.view.LabelImageView
+                android:id="@+id/image1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/image1"
+                app:label_backgroundColor="#C2185B"
+                app:label_orientation="LEFT_TOP"
+                app:label_text="CHINA"
+                app:label_textStyle="ITALIC" />
+
+
+            <com.qishui.zhou.rv2.view.LabelImageView
+                android:id="@+id/image2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/image2"
+                app:label_backgroundColor="#C2185B"
+                app:label_orientation="RIGHT_TOP"
+                app:label_text="KUNQU" />
+        </LinearLayout>
+
+
+        <com.qishui.zhou.rv2.view.LabelTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="#212121"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="电影版 美人天下"
+            android:textColor="#ffffff"
+            app:label_backgroundColor="#fff"
+            app:label_distance="35dp"
+            app:label_height="45dp"
+            app:label_orientation="LEFT_TOP"
+            app:label_textColor="#000"
+            app:label_textSize="20sp"
+            app:label_textStyle="BOLD_ITALIC" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <declare-styleable name="CoolImageView">
+            <attr name="direction" format="string"/>
+        </declare-styleable>
+
+
+    <declare-styleable name="LabelView">
+        <attr name="label_distance" format="dimension" />
+        <attr name="label_height" format="dimension"/>
+        <attr name="label_strokeWidth" format="dimension"/>
+        <attr name="label_backgroundColor" format="color"/>
+        <attr name="label_strokeColor" format="color"/>
+        <attr name="label_text" format="string"/>
+        <attr name="label_textSize" format="dimension" />
+        <attr name="label_textStyle" format="enum" >
+            <enum name="NORMAL" value="0"/>
+            <enum name="BOLD" value="1"/>
+            <enum name="ITALIC" value="2"/>
+            <enum name="BOLD_ITALIC" value="3"/>
+        </attr>
+        <attr name="label_textColor" format="color"/>
+        <attr name="label_visual" format="boolean"/>
+        <attr name="label_orientation" format="enum">
+            <enum name="LEFT_TOP" value="1"/>
+            <enum name="RIGHT_TOP" value="2"/>
+            <enum name="LEFT_BOTTOM" value="3"/>
+            <enum name="RIGHT_BOTTOM" value="4"/>
+        </attr>
+    </declare-styleable>
+
+
+
+
+
+    <declare-styleable name="TriangleLabelView">
+
+        <attr name="backgroundColor" format="color" />
+        <attr name="primaryTextColor" format="color" />
+        <attr name="secondaryTextColor" format="color" />
+
+        <attr name="primaryText" format="string" />
+        <attr name="secondaryText" format="string" />
+
+        <attr name="primaryTextSize" format="dimension" />
+        <attr name="secondaryTextSize" format="dimension" />
+
+        <attr name="labelTopPadding" format="dimension" />
+        <attr name="labelCenterPadding" format="dimension" />
+        <attr name="labelBottomPadding" format="dimension" />
+
+        <attr name="primaryTextStyle">
+            <enum name="normal" value="0" />
+            <enum name="italic" value="1" />
+            <enum name="bold" value="2" />
+        </attr>
+
+        <attr name="secondaryTextStyle">
+            <enum name="normal" value="0" />
+            <enum name="italic" value="1" />
+            <enum name="bold" value="2" />
+        </attr>
+
+        <attr name="corner">
+            <enum name="leftTop" value="1" />
+            <enum name="rightTop" value="2" />
+            <enum name="leftBottom" value="3" />
+            <enum name="rightBottom" value="4" />
+        </attr>
+
+    </declare-styleable>
+
+
+
+    <declare-styleable name="CircleIndicatorView">
+        <attr name="indicatorRadius" format="dimension"/>
+        <attr name="indicatorBorderWidth" format="dimension"/>
+        <attr name="indicatorSpace" format="dimension"/>
+        <attr name="indicatorTextColor" format="color"/>
+        <attr name="indicatorColor" format="color"/>
+        <attr name="indicatorSelectColor" format="color"/>
+        <attr name="enableIndicatorSwitch" format="boolean"/>
+        <attr name="fill_mode">
+            <enum name="letter" value="0"/>
+            <enum name="number" value="1"/>
+            <enum name="none" value="2"/>
+        </attr>
+    </declare-styleable>
+
+
+</resources>
